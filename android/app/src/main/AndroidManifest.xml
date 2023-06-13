@@ -4,6 +4,8 @@
         android:label="tubitak_proje"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+       <meta-data android:name="com.google.android.geo.API_KEY"
+        android:value="AIzaSyAuYJGf43r2hH66Xo_ZY5R1NhqQ_17xqfc"/>
         <activity
             android:name=".MainActivity"
             android:exported="true"
